@@ -49,6 +49,9 @@ dependencies {
     implementation("androidx.core:core-ktx:1.12.0") // replace with your version
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2") // replace with your version
 
+    // Jetpack DataStore (Preferences)
+    implementation("androidx.datastore:datastore-preferences:1.1.1")
+
     // Compose BOM
     implementation(platform("androidx.compose:compose-bom:2024.02.00"))
 
